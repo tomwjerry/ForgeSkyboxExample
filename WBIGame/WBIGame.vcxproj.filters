@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="WBIGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{91f0d5d8-7ca1-42e4-9012-5a69e97d3573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\FSL">
+      <UniqueIdentifier>{af1398da-cdfc-4365-a72b-94ef225a8d61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <FSLShader Include="Shaders\FSL\clear_buffers.comp.fsl" />
+    <FSLShader Include="Shaders\FSL\display.frag.fsl" />
+    <FSLShader Include="Shaders\FSL\display.vert.fsl" />
+    <FSLShader Include="Shaders\FSL\light_cull_resources.h.fsl" />
+    <FSLShader Include="Shaders\FSL\resolve.frag.fsl" />
+    <FSLShader Include="Shaders\FSL\resolve.vert.fsl" />
+    <FSLShader Include="Shaders\FSL\shader_defs.h.fsl" />
+    <FSLShader Include="Shaders\FSL\ShaderList.fsl" />
+    <FSLShader Include="Shaders\FSL\shading.h.fsl" />
+    <FSLShader Include="Shaders\FSL\skybox.frag.fsl" />
+    <FSLShader Include="Shaders\FSL\skybox.vert.fsl" />
+    <FSLShader Include="Shaders\FSL\vb_resources.h.fsl" />
+    <FSLShader Include="Shaders\FSL\visibilityBuffer_pass.frag.fsl" />
+    <FSLShader Include="Shaders\FSL\visibilityBuffer_pass.vert.fsl" />
+    <FSLShader Include="Shaders\FSL\visibilityBuffer_pass_alpha.frag.fsl" />
+    <FSLShader Include="Shaders\FSL\visibilityBuffer_pass_alpha.vert.fsl" />
+    <FSLShader Include="Shaders\FSL\visibilityBuffer_shade.frag.fsl" />
+    <FSLShader Include="Shaders\FSL\visibilityBuffer_shade.vert.fsl" />
+    <FSLShader Include="Shaders\FSL\ShaderList.fsl">
+      <Filter>Shaders\FSL</Filter>
+    </FSLShader>
+    <FSLShader Include="Shaders\FSL\skybox.frag.fsl">
+      <Filter>Shaders\FSL</Filter>
+    </FSLShader>
+    <FSLShader Include="Shaders\FSL\skybox.vert.fsl">
+      <Filter>Shaders\FSL</Filter>
+    </FSLShader>
+    <FSLShader Include="Shaders\FSL\basic.frag.fsl">
+      <Filter>Shaders\FSL</Filter>
+    </FSLShader>
+    <FSLShader Include="Shaders\FSL\basic.vert.fsl">
+      <Filter>Shaders\FSL</Filter>
+    </FSLShader>
+    <FSLShader Include="Shaders\FSL\resources.h.fsl">
+      <Filter>Shaders\FSL</Filter>
+    </FSLShader>
+  </ItemGroup>
+</Project>
